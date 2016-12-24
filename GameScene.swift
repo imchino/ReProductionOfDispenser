@@ -9,11 +9,12 @@ class GameScene: SKScene {
         let fullState = FullState(game: self)
         let serveState = ServeState(game: self)
         let partiallyFullState = PartiallyFullState(game: self)
+        let emptyState = EmptyState(game: self)
         
         stateMachine = GKStateMachine(states: [fullState,
                                                serveState,
-                                               partiallyFullState])
-        
+                                               partiallyFullState,
+                                               emptyState])
         stateMachine.enter(FullState.self)
     }
     

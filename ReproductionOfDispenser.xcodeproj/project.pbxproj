@@ -18,7 +18,8 @@
 		A4B29E701E0E39BF00C0273E /* DispenserState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B29E6F1E0E39BF00C0273E /* DispenserState.swift */; };
 		A4B29E721E0E4DCE00C0273E /* FullState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B29E711E0E4DCE00C0273E /* FullState.swift */; };
 		A4B29E751E0E5CF200C0273E /* PartiallyFullState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B29E741E0E5CF200C0273E /* PartiallyFullState.swift */; };
-		A4B29E771E0E5EF200C0273E /* Serve.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B29E761E0E5EF200C0273E /* Serve.swift */; };
+		A4B29E771E0E5EF200C0273E /* ServeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B29E761E0E5EF200C0273E /* ServeState.swift */; };
+		A4B29E791E0ED9E600C0273E /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B29E781E0ED9E600C0273E /* EmptyState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +36,8 @@
 		A4B29E6F1E0E39BF00C0273E /* DispenserState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispenserState.swift; sourceTree = "<group>"; };
 		A4B29E711E0E4DCE00C0273E /* FullState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullState.swift; sourceTree = "<group>"; };
 		A4B29E741E0E5CF200C0273E /* PartiallyFullState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartiallyFullState.swift; sourceTree = "<group>"; };
-		A4B29E761E0E5EF200C0273E /* Serve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serve.swift; sourceTree = "<group>"; };
+		A4B29E761E0E5EF200C0273E /* ServeState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServeState.swift; sourceTree = "<group>"; };
+		A4B29E781E0ED9E600C0273E /* EmptyState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +90,8 @@
 				A4B29E6F1E0E39BF00C0273E /* DispenserState.swift */,
 				A4B29E711E0E4DCE00C0273E /* FullState.swift */,
 				A4B29E741E0E5CF200C0273E /* PartiallyFullState.swift */,
-				A4B29E761E0E5EF200C0273E /* Serve.swift */,
+				A4B29E761E0E5EF200C0273E /* ServeState.swift */,
+				A4B29E781E0ED9E600C0273E /* EmptyState.swift */,
 			);
 			name = States;
 			sourceTree = "<group>";
@@ -171,10 +174,11 @@
 				A4B29E6E1E0940C100C0273E /* GameScene.swift in Sources */,
 				A4B29E721E0E4DCE00C0273E /* FullState.swift in Sources */,
 				A4B29E701E0E39BF00C0273E /* DispenserState.swift in Sources */,
+				A4B29E791E0ED9E600C0273E /* EmptyState.swift in Sources */,
 				A42D63931E091E5600F54C2D /* GameViewController.swift in Sources */,
 				A42D63911E091E5600F54C2D /* AppDelegate.swift in Sources */,
 				A4B29E751E0E5CF200C0273E /* PartiallyFullState.swift in Sources */,
-				A4B29E771E0E5EF200C0273E /* Serve.swift in Sources */,
+				A4B29E771E0E5EF200C0273E /* ServeState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
