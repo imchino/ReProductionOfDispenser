@@ -20,6 +20,7 @@
 		A4B29E751E0E5CF200C0273E /* PartiallyFullState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B29E741E0E5CF200C0273E /* PartiallyFullState.swift */; };
 		A4B29E771E0E5EF200C0273E /* ServeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B29E761E0E5EF200C0273E /* ServeState.swift */; };
 		A4B29E791E0ED9E600C0273E /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B29E781E0ED9E600C0273E /* EmptyState.swift */; };
+		A4B29E7B1E10F46D00C0273E /* RefillingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B29E7A1E10F46D00C0273E /* RefillingState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		A4B29E741E0E5CF200C0273E /* PartiallyFullState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartiallyFullState.swift; sourceTree = "<group>"; };
 		A4B29E761E0E5EF200C0273E /* ServeState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServeState.swift; sourceTree = "<group>"; };
 		A4B29E781E0ED9E600C0273E /* EmptyState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		A4B29E7A1E10F46D00C0273E /* RefillingState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefillingState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				A4B29E741E0E5CF200C0273E /* PartiallyFullState.swift */,
 				A4B29E761E0E5EF200C0273E /* ServeState.swift */,
 				A4B29E781E0ED9E600C0273E /* EmptyState.swift */,
+				A4B29E7A1E10F46D00C0273E /* RefillingState.swift */,
 			);
 			name = States;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				A4B29E791E0ED9E600C0273E /* EmptyState.swift in Sources */,
 				A42D63931E091E5600F54C2D /* GameViewController.swift in Sources */,
 				A42D63911E091E5600F54C2D /* AppDelegate.swift in Sources */,
+				A4B29E7B1E10F46D00C0273E /* RefillingState.swift in Sources */,
 				A4B29E751E0E5CF200C0273E /* PartiallyFullState.swift in Sources */,
 				A4B29E771E0E5EF200C0273E /* ServeState.swift in Sources */,
 			);

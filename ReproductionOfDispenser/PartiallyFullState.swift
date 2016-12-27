@@ -11,4 +11,13 @@ class PartiallyFullState: DispenserState {
         print("water is partially full...")
     }
     
+    override func isValidNextState(_ stateClass: AnyClass) -> Bool {
+        switch stateClass {
+        case is ServeState.Type, is RefillingState.Type:
+            return true
+        default:
+            return false
+        }
+    }
+    
 }
